@@ -225,16 +225,28 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <div className={styles.socialLinks}>
-                        <div className={styles.socialLinksInnergg}>
+                        <div
+                          className={styles.socialLinksInnergg}
+                          style={{ marginRight: "5px" }}
+                        >
                           <i className="fab fa-twitch"></i>
                         </div>
-                        <div className={styles.socialLinksInnergg}>
+                        <div
+                          className={styles.socialLinksInnergg}
+                          style={{ marginRight: "5px" }}
+                        >
                           <i className="fab fa-facebook-f"></i>
                         </div>
-                        <div className={styles.socialLinksInnergg}>
+                        <div
+                          className={styles.socialLinksInnergg}
+                          style={{ marginRight: "5px" }}
+                        >
                           <i className="fab fa-twitter"></i>
                         </div>
-                        <div className={styles.socialLinksInnergg}>
+                        <div
+                          className={styles.socialLinksInnergg}
+                          style={{ marginRight: "5px" }}
+                        >
                           <i className="fab fa-instagram"></i>
                         </div>
                       </div>
