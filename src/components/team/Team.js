@@ -43,7 +43,7 @@ const Team = () => {
           <div className={`col-lg-3 col-md-6 col-6 ${styles.lstImg}`}>
             <img src={jhon} alt="" className={styles.imgImgJhon} />
             <h2 className={styles.teamInnerHeading}>Insane Clown Dev</h2>
-            <p className={styles.teamInnerContent}>Creative Director</p>
+            <p className={styles.teamInnerContent}>Blockchain Developer</p>
             <a href="https://wa.me/94769382116" className={styles.socialLinks}>
               <i className="fab fa-whatsapp"></i>
             </a>
