@@ -31,7 +31,11 @@
 .socialLinks:hover {
   color: #ffffff;
 }
-
+.imgImgJhon {
+  /* border-radius: 155px; */
+  width: 172px;
+  height: 172px;
+}
 @media screen and (max-width: 1000px) {
   .teamHeading {
     font-size: 35px;
@@ -64,6 +68,11 @@
     margin-top: 40px !important;
   }
   .imgImg {
+    width: 133px;
+    height: 133px;
+  }
+  .imgImgJhon {
+    /* border-radius: 155px; */
     width: 133px;
     height: 133px;
   }
