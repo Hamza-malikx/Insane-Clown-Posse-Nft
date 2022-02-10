@@ -119,16 +119,44 @@ const Header = () => {
                 <li className={styles.navbarItems}>
                   <div className={styles.socialLinks}>
                     <div className={styles.socialLinksInner}>
-                      <i className="fab fa-twitch"></i>
+                      <a
+                        href="https://www.twitch.com/ICPNETWORK"
+                        style={{ color: "#fff" }}
+                      >
+                        <i className="fab fa-twitch"></i>
+                      </a>
                     </div>
                     <div className={styles.socialLinksInner}>
-                      <i className="fab fa-facebook-f"></i>
+                      <a
+                        href="https://www.facebook.com/INSANECLOWNPOSSE"
+                        style={{ color: "#fff" }}
+                      >
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
                     </div>
                     <div className={styles.socialLinksInner}>
-                      <i className="fab fa-twitter"></i>
+                      <a
+                        href="https://twitter.com/icp"
+                        style={{ color: "#fff" }}
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
                     </div>
                     <div className={styles.socialLinksInner}>
-                      <i className="fab fa-instagram"></i>
+                      <a
+                        href="https://www.instagram.com/therealicp/?hl=en"
+                        style={{ color: "#fff" }}
+                      >
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                    <div className={styles.socialLinksInner}>
+                      <a
+                        href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ"
+                        style={{ color: "#fff" }}
+                      >
+                        <i className="fab fa-youtube"></i>
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -231,27 +259,58 @@ const Header = () => {
                       <div className={styles.socialLinks}>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-twitch"></i>
+                          <a
+                            href="https://www.twitch.com/ICPNETWORK"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-twitch"></i>
+                          </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-facebook-f"></i>
+                          <a
+                            href="https://www.facebook.com/INSANECLOWNPOSSE"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-facebook-f"></i>
+                          </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-twitter"></i>
+                          <a
+                            href="https://twitter.com/icp"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-twitter"></i>
+                          </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-instagram"></i>
+                          <a
+                            href="https://www.instagram.com/therealicp/?hl=en"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-instagram"></i>
+                          </a>
+                        </div>
+                        <div
+                          className={styles.socialLinksInnergg}
+                          style={{ marginRight: "7px" }}
+                        >
+                          <a
+                            href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-youtube"></i>
+                          </a>
                         </div>
                       </div>
                     </li>
@@ -302,27 +361,58 @@ const Header = () => {
                       <div className={styles.socialLinks}>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-twitch"></i>
+                          <a
+                            href="https://www.twitch.com/ICPNETWORK"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-twitch"></i>
+                          </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-facebook-f"></i>
+                          <a
+                            href="https://www.facebook.com/INSANECLOWNPOSSE"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-facebook-f"></i>
+                          </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-twitter"></i>
+                          <a
+                            href="https://twitter.com/icp"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-twitter"></i>
+                          </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "5px" }}
+                          style={{ marginRight: "7px" }}
                         >
-                          <i className="fab fa-instagram"></i>
+                          <a
+                            href="https://www.instagram.com/therealicp/?hl=en"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-instagram"></i>
+                          </a>
+                        </div>
+                        <div
+                          className={styles.socialLinksInnergg}
+                          style={{ marginRight: "7px" }}
+                        >
+                          <a
+                            href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ"
+                            style={{ color: "#fff" }}
+                          >
+                            <i className="fab fa-youtube"></i>
+                          </a>
                         </div>
                       </div>
                     </li>

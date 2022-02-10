@@ -3,9 +3,10 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center -76px;
+  /* background-position: center;s */
   /* background-position: 49% 8px; */
-  padding: 100px 0 50px;
+  padding: 105px 0 80px;
 }
 
 .utilityHeading {
@@ -15,6 +16,7 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 150px;
+  letter-spacing: 6.76px;
 }
 .utilityWrapper {
   margin-top: 40px;
@@ -45,6 +47,11 @@
   padding-top: 140px;
 }
 /* font-family: 'Georgia', sans-serif; */
+@media screen and (max-width: 1200px) {
+  .utilityInnerContent {
+    font-size: 19px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .utility {
     background-position: 100% -106px;

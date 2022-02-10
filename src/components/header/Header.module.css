@@ -187,6 +187,9 @@ label span {
   .navbarItems {
     margin: 0 12px;
   }
+  .navbarUl {
+    padding-left: 3px !important;
+  }
 }
 @media screen and (max-width: 1200px) {
   .navbarItems {
