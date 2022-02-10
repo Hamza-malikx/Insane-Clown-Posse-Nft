@@ -12,16 +12,29 @@ const Footer = () => {
         {/* <p> */}
         <div className={styles.socialLinks}>
           <div className={styles.socialLinksInner}>
-            <i className="fab fa-twitch"></i>
+            <a href="https://www.twitch.com/ICPNETWORK">
+              <i className="fab fa-twitch"></i>
+            </a>
           </div>
           <div className={styles.socialLinksInner}>
-            <i className="fab fa-facebook-f"></i>
+            <a href="https://www.facebook.com/INSANECLOWNPOSSE">
+              <i className="fab fa-facebook-f"></i>
+            </a>
           </div>
           <div className={styles.socialLinksInner}>
-            <i className="fab fa-twitter"></i>
+            <a href="https://twitter.com/icp">
+              <i className="fab fa-twitter"></i>
+            </a>
           </div>
           <div className={styles.socialLinksInner}>
-            <i className="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/therealicp/?hl=en">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div className={styles.socialLinksInner}>
+            <a href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ">
+              <i className="fab fa-youtube"></i>
+            </a>
           </div>
         </div>
         {/* </p> */}
