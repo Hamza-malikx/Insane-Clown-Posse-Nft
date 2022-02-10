@@ -3,7 +3,7 @@ import styles from "./team.module.css";
 import violentProf from "../../assets/images/Violentback.png";
 import shaggyDope from "../../assets/images/Shaggy2DopeCat.png";
 import benjamen from "../../assets/images/Metahero.png";
-import jhon from "../../assets/icons/coder illustration-modified.png";
+import jhon from "../../assets/icons/dev png.png";
 const Team = () => {
   return (
     <div className={styles.team}>
@@ -42,13 +42,9 @@ const Team = () => {
           </div>
           <div className={`col-lg-3 col-md-6 col-6 ${styles.lstImg}`}>
             <img src={jhon} alt="" className={styles.imgImgJhon} />
-            <h2 className={styles.teamInnerHeading}>Blockchain Dev</h2>
+            <h2 className={styles.teamInnerHeading}>Insane Clown Dev</h2>
             <p className={styles.teamInnerContent}>Creative Director</p>
-            <a
-              href="https://wa.me/94769382116"
-              // href="https://wa.me/94 76 938 2116"
-              className={styles.socialLinks}
-            >
+            <a href="https://wa.me/94769382116" className={styles.socialLinks}>
               <i className="fab fa-whatsapp"></i>
             </a>
           </div>
