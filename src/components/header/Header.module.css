@@ -133,8 +133,9 @@ label span {
   font-family: "Poppins,bold", sans-serif;
   font-size: 13px;
   font-weight: bold;
-  padding: 0px 26px;
+  padding: 0px 17px;
   text-transform: uppercase;
+  letter-spacing: 1.6px;
 }
 .connectWalBtnAg {
   color: #000000;
@@ -224,7 +225,7 @@ label span {
     z-index: 999;
     position: absolute;
     right: 10%;
-    bottom: 39px;
+    bottom: 29px;
   }
   .wrapper {
     display: block;
