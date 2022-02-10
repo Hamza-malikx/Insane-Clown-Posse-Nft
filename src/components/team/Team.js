@@ -6,7 +6,7 @@ import benjamen from "../../assets/images/Metahero.png";
 import jhon from "../../assets/icons/dev png.png";
 const Team = () => {
   return (
-    <div className={styles.team}>
+    <div className={styles.team} id="team">
       <div className="container">
         <h2 className={styles.teamHeading}>the team</h2>
         <div className="row">

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./rarity.module.css";
 const Rarity = () => {
   return (
-    <div className={styles.rarity}>
+    <div className={styles.rarity} id="rarity">
       <div className="container">
         <div>
           <h2 className={styles.rarityInnerHeading}>rarity</h2>

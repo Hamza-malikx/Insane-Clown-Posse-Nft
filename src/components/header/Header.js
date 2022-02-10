@@ -12,6 +12,30 @@ const Header = () => {
       setHamburger("true");
     }
   };
+  const scroll = () => {
+    const anchor = document.querySelector("#mint");
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const scrollToAbout = () => {
+    const anchor = document.querySelector("#about");
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const scrollToUtility = () => {
+    const anchor = document.querySelector("#utility");
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const scrollToRarity = () => {
+    const anchor = document.querySelector("#rarity");
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const scrollToTeam = () => {
+    const anchor = document.querySelector("#team");
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const scrollUsage = () => {
+    const anchor = document.querySelector("#usage");
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
   useEffect(() => {
     document.addEventListener("scroll", () => {
       let listener = null;
@@ -42,30 +66,56 @@ const Header = () => {
             <div className={styles.navbar}>
               <ul className={styles.navbarUl}>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/">
+                  <Link className={styles.navbarLink} to="/" onClick={scroll}>
                     MINT
                   </Link>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/">
-                    ROADMAP
+                  <Link
+                    className={styles.navbarLink}
+                    to="/"
+                    onClick={scrollToAbout}
+                  >
+                    ABOUT US
                   </Link>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/">
-                    FAQ
+                  <Link
+                    className={styles.navbarLink}
+                    to="/"
+                    onClick={scrollToUtility}
+                  >
+                    UTILITY
                   </Link>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/">
+                  <Link
+                    className={styles.navbarLink}
+                    to="/"
+                    onClick={scrollToRarity}
+                  >
+                    RARITY
+                  </Link>
+                </li>
+                <li className={styles.navbarItems}>
+                  <Link
+                    className={styles.navbarLink}
+                    to="/"
+                    onClick={scrollToTeam}
+                  >
                     TEAM
                   </Link>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/nft-usage">
+                  <Link
+                    className={styles.navbarLink}
+                    to="/nft-usage"
+                    onClick={scrollUsage}
+                  >
                     NFT USAGE
                   </Link>
                 </li>
+
                 <li className={styles.navbarItems}>
                   <div className={styles.socialLinks}>
                     <div className={styles.socialLinksInner}>
@@ -124,27 +174,56 @@ const Header = () => {
                       className={styles.navbarItemsAg}
                       style={{ margin: "20px 0 !important" }}
                     >
-                      <Link className={styles.navbarLink} to="/">
+                      <Link
+                        className={styles.navbarLink}
+                        to="/"
+                        onClick={scroll}
+                      >
                         MINT
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
-                        ROADMAP
+                      <Link
+                        className={styles.navbarLink}
+                        to="/"
+                        onClick={scrollToAbout}
+                      >
+                        ABOUT US
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
-                        FAQ
+                      <Link
+                        className={styles.navbarLink}
+                        to="/"
+                        onClick={scrollToUtility}
+                      >
+                        UTILITY
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <Link
+                        className={styles.navbarLink}
+                        to="/"
+                        onClick={scrollToRarity}
+                      >
+                        RARITY
+                      </Link>
+                    </li>
+                    <li className={styles.navbarItemsAg}>
+                      <Link
+                        className={styles.navbarLink}
+                        to="/"
+                        onClick={scrollToTeam}
+                      >
                         TEAM
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/nft-usage">
+                      <Link
+                        className={styles.navbarLink}
+                        to="/nft-usage"
+                        onClick={scrollUsage}
+                      >
                         NFT USAGE
                       </Link>
                     </li>
@@ -188,32 +267,28 @@ const Header = () => {
                   <ul className={styles.sideBarUl}>
                     <li
                       className={styles.navbarItemsAg}
-                      style={{ marginRight: "5px" }}
+                      style={{ margin: "20px 0 !important" }}
                     >
                       <Link className={styles.navbarLink} to="/">
                         MINT
                       </Link>
                     </li>
-                    <li
-                      className={styles.navbarItemsAg}
-                      style={{ marginRight: "5px" }}
-                    >
+                    <li className={styles.navbarItemsAg}>
                       <Link className={styles.navbarLink} to="/">
-                        ROADMAP
+                        ABOUT US
                       </Link>
                     </li>
-                    <li
-                      className={styles.navbarItemsAg}
-                      style={{ marginRight: "5px" }}
-                    >
+                    <li className={styles.navbarItemsAg}>
                       <Link className={styles.navbarLink} to="/">
-                        FAQ
+                        UTILITY
                       </Link>
                     </li>
-                    <li
-                      className={styles.navbarItemsAg}
-                      style={{ marginRight: "5px" }}
-                    >
+                    <li className={styles.navbarItemsAg}>
+                      <Link className={styles.navbarLink} to="/">
+                        RARITY
+                      </Link>
+                    </li>
+                    <li className={styles.navbarItemsAg}>
                       <Link className={styles.navbarLink} to="/">
                         TEAM
                       </Link>
@@ -251,7 +326,7 @@ const Header = () => {
                         </div>
                       </div>
                     </li>
-                    <li style={{ textAlign: "center " }}>
+                    <li style={{ textAlign: "center" }}>
                       <button className={styles.connectWalBtnAg}>
                         Connect Wallet
                       </button>

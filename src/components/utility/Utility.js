@@ -6,7 +6,7 @@ import ipRightsImg from "../../assets/images/Layer 7.png";
 import exluImg from "../../assets/images/Layer 8.png";
 const Utility = () => {
   return (
-    <div className={styles.utility}>
+    <div className={styles.utility} id="utility">
       <div className="container">
         <h2 className={styles.utilityHeading}>Utility</h2>
         {/* <div className={styles.utilityWrapper}> */}

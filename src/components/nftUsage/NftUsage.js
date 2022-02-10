@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./nftUsage.module.css";
 const NftUsage = () => {
   return (
-    <div className={styles.nftUsage}>
+    <div className={styles.nftUsage} id="usage">
       <div className="container">
         <div className={styles.nftUsageWrapper}>
           <h2 className={styles.nftUsageHeading}>nftUsage</h2>

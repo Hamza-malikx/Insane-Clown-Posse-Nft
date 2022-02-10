@@ -6,7 +6,7 @@ import takeMeAway from "../../assets/images/ICP - Take Me Away Cover.png";
 import chopChop from "../../assets/images/ICP Chop Chop Slide Flat.png";
 const AboutUs = () => {
   return (
-    <div className={styles.aboutUsWrapper}>
+    <div className={styles.aboutUsWrapper} id="about">
       <div className="container">
         <h2 className={styles.aboutUsHeading}>About Us</h2>
         <p className={styles.aboutUsContent}>

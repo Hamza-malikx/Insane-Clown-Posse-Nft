@@ -37,7 +37,7 @@
 }
 
 .navbarItems {
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   text-decoration: none;
   position: relative;
@@ -131,11 +131,12 @@ label span {
   background-color: #00b8ff;
   border: 1px solid #00b8ff;
   font-family: "Poppins,bold", sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 0px 17px;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 0px 21px;
   text-transform: uppercase;
   letter-spacing: 1.6px;
+  height: 51px;
 }
 .connectWalBtnAg {
   color: #000000;
@@ -184,18 +185,20 @@ label span {
 }
 @media screen and (max-width: 1400px) {
   .navbarItems {
-    margin: 0 17px;
+    margin: 0 12px;
   }
 }
 @media screen and (max-width: 1200px) {
   .navbarItems {
     margin: 0 10px;
+    font-size: 10px;
   }
   .navbarUl {
     padding-left: 0px !important;
   }
   .logo img {
-    width: 200px;
+    width: 160px;
+    /* margin-top: 14px; */
   }
 }
 .sideBarUl {

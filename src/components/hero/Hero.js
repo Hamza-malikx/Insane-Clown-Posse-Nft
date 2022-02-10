@@ -10,7 +10,7 @@ const Hero = () => {
     setState(state + 1);
   };
   return (
-    <div className={styles.heroWrapper}>
+    <div className={styles.heroWrapper} id="mint">
       <div className="container">
         <div className={styles.heroWrapperInner}>
           <div className="row">
