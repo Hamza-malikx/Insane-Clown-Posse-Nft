@@ -1,0 +1,58 @@
+.nftUsage {
+  padding: 100px 0 50px;
+}
+.nftUsageWrapper {
+  margin: 90px 0 10px;
+}
+.nftUsageHeading {
+  font-family: "Curse of the Zombie", sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 55px;
+  margin-bottom: 70px;
+}
+.nftContent {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+@media screen and (max-width: 1000px) {
+  .nftUsageWrapper {
+    margin: 50px 0 10px;
+  }
+  .nftContent {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-bottom: 22px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nftUsageWrapper {
+    margin: 40px 0 10px;
+  }
+  .nftContent {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-bottom: 22px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nftUsageWrapper {
+    margin: 20px 0 10px;
+  }
+  .nftContent {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-bottom: 22px;
+    font-size: 12px;
+  }
+}

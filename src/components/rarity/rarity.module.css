@@ -1,0 +1,47 @@
+.rarity {
+  padding: 170px 0 120px;
+  text-align: center;
+}
+.rarityInnerHeading {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Curse of the Zombie", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.rarityInnerContent {
+  font-family: "Comic Sans MS";
+  color: #ffffff;
+  font-size: 28px;
+}
+@media screen and (max-width: 1000px) {
+  .rarity {
+    padding: 100px 0 80px;
+  }
+  .rarityInnerHeading {
+    font-size: 45px;
+  }
+  .rarityInnerContent {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .rarity {
+    padding: 20px 0 80px;
+  }
+  .rarityInnerHeading {
+    font-size: 40px;
+  }
+  .rarityInnerContent {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .rarityInnerHeading {
+    font-size: 35px;
+  }
+  .rarityInnerContent {
+    font-size: 16px;
+  }
+}

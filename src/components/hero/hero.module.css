@@ -1,0 +1,231 @@
+.heroWrapper {
+  background-image: url("../../assets/images/OBJECTS.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 500px; */
+}
+.heroWrapperInner {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.heroHeading {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 33px;
+}
+.heroContent {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 28px;
+  font-size: 16px;
+}
+.heroWrapperInner p:nth-child(2) {
+  margin-bottom: 47px;
+}
+.heroMint {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.rightImg {
+  max-width: 621px;
+  max-width: 621px;
+  width: 100%;
+  height: 100%;
+}
+.heroMintNow {
+  display: flex;
+}
+
+.heroIncDec {
+  border: 1px solid #00b8ff;
+  margin-right: 20px;
+}
+.decBtn,
+.incBtn {
+  color: #000000;
+  background-color: #00b8ff;
+  border: 1px solid #00b8ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0px 16px;
+  height: 100%;
+}
+.incDecRslt {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  padding: 0px 40px;
+  color: #fff;
+}
+.mintNowBtn {
+  color: #000000;
+  background-color: #00b8ff;
+  border: 1px solid #00b8ff;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Curse of the Zombie", sans-serif; */
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0px 47px;
+  height: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .heroWrapper {
+    background-position: 70% -43px;
+  }
+  .rightImg {
+    margin-top: 40px;
+  }
+  .heroWrapperInner {
+    padding-top: 180px;
+    padding-bottom: 150px;
+  }
+  .mintNowBtn {
+    height: 100%;
+  }
+  .heroMintNow {
+    justify-content: center;
+  }
+  .decBtn,
+  .incBtn {
+    font-size: 24px;
+  }
+  .incDecRslt {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .heroHeading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .heroContent {
+    font-size: 14px;
+    text-align: center;
+  }
+  .heroMint {
+    font-size: 18px;
+    text-align: center;
+  }
+  .rightImg {
+    margin-top: 40px;
+    max-width: 397px;
+  }
+  .rightImgWrapper {
+    text-align: center;
+  }
+  .heroWrapperInner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .mintNowBtn {
+    height: 100%;
+  }
+  .heroMintNow {
+    justify-content: center;
+  }
+  .decBtn,
+  .incBtn {
+    font-size: 24px;
+  }
+  .incDecRslt {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .heroHeading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .heroContent {
+    font-size: 12px;
+    text-align: center;
+  }
+  .heroMint {
+    font-size: 16px;
+    text-align: center;
+  }
+  .rightImg {
+    margin-top: 40px;
+    max-width: 397px;
+  }
+  .rightImgWrapper {
+    text-align: center;
+  }
+  .heroWrapperInner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .mintNowBtn {
+    height: 100%;
+    padding: 0 30px;
+  }
+  .heroMintNow {
+    justify-content: center;
+  }
+  .decBtn,
+  .incBtn {
+    font-size: 21px;
+  }
+  .incDecRslt {
+    font-size: 21px;
+    padding: 0 25px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .heroHeading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .heroContent {
+    font-size: 12px;
+    text-align: center;
+  }
+  .heroMint {
+    font-size: 16px;
+    text-align: center;
+  }
+  .rightImg {
+    margin-top: 40px;
+    max-width: 397px;
+  }
+  .rightImgWrapper {
+    text-align: center;
+  }
+  .heroWrapperInner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .mintNowBtn {
+    height: 100%;
+    padding: 0 30px;
+    margin-top: 20px;
+  }
+  .heroMintNow {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .decBtn,
+  .incBtn {
+    font-size: 21px;
+  }
+  .incDecRslt {
+    font-size: 21px;
+    padding: 0 25px;
+    border-top: 1px solid #00b8ff;
+    border-bottom: 1px solid #00b8ff;
+    height: 100%;
+    padding: 1px 25px 2px;
+  }
+  .heroIncDec {
+    border: none;
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,96 @@
+.utility {
+  background-image: url("../../assets/images/Mask Group 1.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-position: 49% 8px; */
+  padding: 100px 0 50px;
+}
+
+.utilityHeading {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Curse of the Zombie", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+}
+.utilityWrapper {
+  margin-top: 40px;
+}
+.utilityInner {
+  text-align: center;
+}
+.utilityInnerHeading {
+  color: #f00d0d;
+  font-size: 30px;
+  font-family: "Georgia", sans-serif;
+  margin-top: -10px;
+}
+.utilityInnerHeadingMerge {
+  color: #f00d0d;
+  font-size: 30px;
+  font-family: "Georgia", sans-serif;
+  margin-top: -16px;
+}
+.utilityInnerContent {
+  color: #fff;
+  font-size: 22px;
+  text-align: left;
+  font-family: "Comic Sans MS";
+  letter-spacing: 0px;
+}
+.utilityWrapperInner {
+  padding-top: 140px;
+}
+/* font-family: 'Georgia', sans-serif; */
+@media screen and (max-width: 1000px) {
+  .utility {
+    background-position: 100% -106px;
+    padding: 100px 0 130px;
+    height: 100%;
+  }
+  .utilityWrapperInner {
+    padding-top: 80px;
+  }
+  .utilityHeading {
+    font-size: 45px;
+  }
+  .utilityInnerHeadingMerge {
+    font-size: 22px;
+  }
+  .utilityInnerHeading {
+    font-size: 22px;
+  }
+  .utilityInnerContent {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .utility {
+    background-position: 100% -176px;
+    height: 100%;
+    padding: 100px 0 180px;
+  }
+  .utilityWrapperInner {
+    padding-top: 40px;
+  }
+  .utilityHeading {
+    font-size: 35px;
+    margin-bottom: 70px;
+  }
+  .utilityInnerHeadingMerge {
+    font-size: 19px;
+  }
+  .utilityInnerHeading {
+    font-size: 19px;
+  }
+  .utilityInnerContent {
+    font-size: 14px;
+  }
+  .utilityInner img {
+    width: 100px;
+    height: 100px;
+  }
+}

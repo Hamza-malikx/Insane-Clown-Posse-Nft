@@ -1,0 +1,42 @@
+.aboutUsWrapper {
+  padding: 10px 0 130px;
+}
+.aboutUsHeading {
+  font-family: "Curse of the Zombie", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 55px;
+}
+.aboutUsContent {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: center;
+  max-width: 769px;
+  margin: auto;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.imgsCarous {
+  padding-top: 60px;
+}
+.aboutUsImgs {
+  width: 100%;
+}
+.imgsCarousWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1000px) {
+  .aboutUsHeading {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .aboutUsHeading {
+    font-size: 35px;
+  }
+  .aboutUsContent {
+    font-size: 14px;
+  }
+}
