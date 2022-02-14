@@ -33,7 +33,7 @@ const Hero = () => {
                 hoody. Redeemable through the website. (shipping and handling
                 charges will apply).
               </p>
-              <h6 className={styles.heroMint}>0/500 Mint at 0.069 ETH Each</h6>
+              {/* <h6 className={styles.heroMint}>0/500 Mint at 0.069 ETH Each</h6>
               <div className={styles.heroMintNow}>
                 <div className={styles.heroIncDec}>
                   <button className={styles.decBtn} onClick={decHandler}>
@@ -49,7 +49,7 @@ const Hero = () => {
                 <div>
                   <button className={styles.mintNowBtn}>MINT NOW</button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className={`col-lg-6 ${styles.rightImgWrapper}`}>
               <img className={styles.rightImg} src={rightImg} alt="" />

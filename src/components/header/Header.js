@@ -110,7 +110,7 @@ const Header = () => {
                   <Link
                     className={styles.navbarLink}
                     to="/nft-usage"
-                    onClick={scrollUsage}
+                    // onClick={scrollUsage}
                   >
                     NFT USAGE
                   </Link>
@@ -250,7 +250,7 @@ const Header = () => {
                       <Link
                         className={styles.navbarLink}
                         to="/nft-usage"
-                        onClick={scrollUsage}
+                        // onClick={scrollUsage}
                       >
                         NFT USAGE
                       </Link>
